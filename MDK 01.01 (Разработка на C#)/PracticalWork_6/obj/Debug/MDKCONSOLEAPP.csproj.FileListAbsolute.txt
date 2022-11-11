@@ -1,0 +1,8 @@
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\bin\Debug\MDKCONSOLEAPP.exe.config
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\bin\Debug\MDKCONSOLEAPP.exe
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\bin\Debug\MDKCONSOLEAPP.pdb
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\obj\Debug\MDKCONSOLEAPP.csproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\obj\Debug\MDKCONSOLEAPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\obj\Debug\MDKCONSOLEAPP.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\obj\Debug\MDKCONSOLEAPP.exe
+C:\Users\HONOR\Desktop\Учеба\1_C# (Егурнова)\Готовые_работы\MDKCONSOLEAPP\obj\Debug\MDKCONSOLEAPP.pdb

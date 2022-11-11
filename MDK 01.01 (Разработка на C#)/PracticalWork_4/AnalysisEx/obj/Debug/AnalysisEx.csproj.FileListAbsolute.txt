@@ -1,0 +1,8 @@
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\bin\Debug\AnalysisEx.exe.config
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\bin\Debug\AnalysisEx.exe
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\bin\Debug\AnalysisEx.pdb
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\obj\Debug\AnalysisEx.csproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\obj\Debug\AnalysisEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\obj\Debug\AnalysisEx.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\obj\Debug\AnalysisEx.exe
+C:\Users\HONOR\Desktop\Learn\МДК 01.01\Практики\PZ1\AnalysisEx\AnalysisEx\obj\Debug\AnalysisEx.pdb
