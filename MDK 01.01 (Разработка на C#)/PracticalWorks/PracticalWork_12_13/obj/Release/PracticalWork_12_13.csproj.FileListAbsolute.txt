@@ -1,0 +1,15 @@
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\bin\Release\PracticalWork_12_13.exe.config
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\bin\Release\PracticalWork_12_13.exe
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\bin\Release\PracticalWork_12_13.pdb
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.csproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.csproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\MainWindow.baml
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\MainWindow.g.cs
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\App.g.cs
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13_MarkupCompile.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.g.resources
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.Properties.Resources.resources
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.csproj.GenerateResource.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.exe
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalWork_12_13\obj\Release\PracticalWork_12_13.pdb

@@ -1,0 +1,8 @@
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\bin\Debug\PracticalDelegates.exe.config
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\bin\Debug\PracticalDelegates.exe
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\bin\Debug\PracticalDelegates.pdb
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\obj\Debug\PracticalDelegates.csproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\obj\Debug\PracticalDelegates.csproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\obj\Debug\PracticalDelegates.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\obj\Debug\PracticalDelegates.exe
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\MDK 01.01 (Разработка на C#)\PracticalWorks\PracticalDelegates\obj\Debug\PracticalDelegates.pdb
