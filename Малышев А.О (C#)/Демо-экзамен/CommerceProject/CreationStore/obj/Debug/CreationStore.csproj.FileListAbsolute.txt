@@ -1,0 +1,10 @@
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\bin\Debug\CreationStore.exe.config
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\bin\Debug\CreationStore.exe
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\bin\Debug\CreationStore.pdb
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.csproj.AssemblyReference.cache
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.csproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.Properties.Resources.resources
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.csproj.GenerateResource.cache
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.exe
+C:\Users\HONOR\Documents\Учеба\3_MDK02\GitLab_задания\Решения для бизнеса\CommerceProject\CreationStore\obj\Debug\CreationStore.pdb
