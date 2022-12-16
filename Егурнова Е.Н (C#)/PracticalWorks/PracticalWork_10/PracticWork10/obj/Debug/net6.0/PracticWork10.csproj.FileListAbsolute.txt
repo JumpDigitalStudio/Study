@@ -1,0 +1,30 @@
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\bin\Debug\net6.0\PracticWork10.exe
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\bin\Debug\net6.0\PracticWork10.deps.json
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\bin\Debug\net6.0\PracticWork10.runtimeconfig.json
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\bin\Debug\net6.0\PracticWork10.dll
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\bin\Debug\net6.0\PracticWork10.pdb
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.csproj.AssemblyReference.cache
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.AssemblyInfoInputs.cache
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.AssemblyInfo.cs
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.csproj.CoreCompileInputs.cache
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.dll
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\refint\PracticWork10.dll
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.pdb
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\PracticWork10.genruntimeconfig.cache
+C:\Users\KykyhySneslo\OneDrive\Рабочий стол\Projects\УЧЁБА\PracticWork10\PracticWork10\obj\Debug\net6.0\ref\PracticWork10.dll
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\bin\Debug\net6.0\PracticWork10.exe
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\bin\Debug\net6.0\PracticWork10.deps.json
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\bin\Debug\net6.0\PracticWork10.runtimeconfig.json
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\bin\Debug\net6.0\PracticWork10.dll
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\bin\Debug\net6.0\PracticWork10.pdb
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.csproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.AssemblyInfoInputs.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.AssemblyInfo.cs
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.csproj.CoreCompileInputs.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.dll
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\refint\PracticWork10.dll
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.pdb
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\PracticWork10.genruntimeconfig.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Егурнова Е.Н (C#)\PracticalWorks\PracticalWork_10\PracticWork10\obj\Debug\net6.0\ref\PracticWork10.dll
