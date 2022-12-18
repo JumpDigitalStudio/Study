@@ -2,77 +2,98 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PracticalWork_6
 {
-    class Address
-    {
-        public string country;
-        public string city;
-        public string street;
-        public int house;
-        public int flat;
-
-        public Address()
-        {
-
-        }
-
-        public Address(string country, string city, string street, int house, int flat)
-        {
-            this.country = country;
-            this.city = city;
-            this.street = street;
-            this.house = house;
-            this.flat = flat;
-        }
-
-        public void Updade()
-        {
-            Console.WriteLine("Введите свою страну");
-            country = Console.ReadLine();
-            Console.WriteLine("Введите свой город");
-            city = Console.ReadLine();
-            Console.WriteLine("Введите свою улицу");
-            street = Console.ReadLine();
-            Console.WriteLine("Введите номер своего дома");
-            house = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Номер квартиры");
-            flat = Convert.ToInt32(Console.ReadLine());
-        }
-        public void GetAddress()
-        {
-            Console.WriteLine("Адрес: " + country + ", " + city + ", " + street + ", " + house + ", " + flat);
-        }
-    }
-
     internal class Program
     {
         static void Main(string[] args)
         {
-            string country;
-            string city;
-            string street;
-            int house;
-            int flat;
-            int count = 2;
-            Address[] adres = new Address[count];
-            Address adr;
+            // Работу выполнил Кузнецов Илья Владиславович
+            // Вариант номер 2
 
+            // Число экземпляров
+            int obj = 5;
+            // Число четных домов
+            int evennumbered = 1;
+            Random r = new Random();
+            Address[] adr = new Address[obj];
 
-            for (int i = 0; i < count / 2; i++)
+            for (int j = 0; j < obj; j++)
             {
-                adr = new Address();
-                adr.Updade();
-                adres[i] = adr;
-                adr.GetAddress();
+                // Алгоритм заполнения числа экземпляров
+                adr[j] = new Address();
+                adr[j].country = "Россия";
+                adr[j].city = "Оренбург";
+                adr[j].street = "Гагарина";
+                adr[j].HouseNumber = r.Next(1, 999);
+
+                if (adr[j].HouseNumber % 2 == 1)
+                {
+                    // Алгоритм проверки домов на четность
+                    adr[j].HouseNumber = adr[j].HouseNumber + 1;
+
+                    if (adr[j].HouseNumber % 2 != 1)
+                    {
+                        if (evennumbered > 0)
+                        {
+                            evennumbered--;
+                        }
+                        else
+                        {
+                            adr[j].HouseNumber = adr[j].HouseNumber - 1;
+                        }
+                    }
+                }
+                else
+                if (adr[j].HouseNumber % 2 != 1)
+                {
+                    if (evennumbered > 0)
+                    {
+                        evennumbered--;
+                    }
+                    else
+                    {
+                        adr[j].HouseNumber = adr[j].HouseNumber - 1;
+                    }
+                }
+
+                adr[j].FlatNumber = r.Next(1, 100);
+
+                adr[j].GetAdress();
             }
 
-            Console.ReadLine();
-        }
 
+            RemoteAdress ra1 = new RemoteAdress()
+            { 
+                // Алгоритм заполнения экземпляров класса удаленных домов
+                country = "Россия",
+                city = "Оренбург",
+                street = "7 линия",
+                HouseNumber = 8,
+                flat = 1,
+                reason = "Продан"
+            };
+
+            RemoteAdress ra2 = new RemoteAdress()
+            {   
+                // Алгоритм заполнения экземпляров класса удаленных домов
+                country = "Россия",
+                city = "Оренбург",
+                street = "проспект Дзержинского",
+                HouseNumber = 14,
+                flat = 72,
+                reason = "Арендован"
+
+            };
+
+            ra1.GetremoteAdress();
+            Console.WriteLine();
+            ra2.GetremoteAdress();
+
+            Console.ReadKey();
+        }
     }
 }
