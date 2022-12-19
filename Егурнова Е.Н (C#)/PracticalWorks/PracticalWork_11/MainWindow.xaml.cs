@@ -23,140 +23,77 @@ namespace PracticalWork_11
     public partial class MainWindow : Window
     {
 
-        Caretacker caretaker = new Caretacker();
-        Originator originator = new Originator();
-
-        public int i = 0;
-
         public MainWindow()
         {
             InitializeComponent();
-            FontSize.SelectedIndex = 0;
-            FontStyle.SelectedIndex = 0;
-
-            ComboBoxItem ItemValue = (ComboBoxItem)FontSize.SelectedItem;
-            TextBlock.FontSize = int.Parse(ItemValue.Content.ToString());
-
-            ComboBoxItem StyleValue = (ComboBoxItem)FontStyle.SelectedItem;
-            switch (StyleValue.Content.ToString())
-            {
-                case "Regular":
-                    TextBlock.FontStyle = FontStyles.Normal;
-                    break;
-                case "Italic":
-                    TextBlock.FontStyle = FontStyles.Italic;
-                    break;
-                case "Bold":
-                    if (i == 0)
-                    {
-                        TextBlock.FontWeight = FontWeights.Bold;
-                        i++;
-                    }
-                    else
-                    {
-                        TextBlock.FontWeight = FontWeights.Normal;
-                        i--;
-                    }
-                    break;
-                default:
-                    TextBlock.FontStyle = FontStyles.Normal;
-                    break;
-            }
+            cmbFont.ItemsSource = Fonts.SystemFontFamilies.OrderBy(f => f.Source);
+            cmbFontSize.ItemsSource = new List<double>() { 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72 };
         }
 
-        private void Open_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            OpenFileDialog dlg = new OpenFileDialog();
-            dlg.Filter = "Rich Text Format (*.rtf)|*.rtf|All files (*.*)|*.*";
-            if (dlg.ShowDialog() == true)
-            {
-                FileStream fileStream = new FileStream(dlg.FileName, FileMode.Open);
-                TextRange range = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
-                range.Load(fileStream, DataFormats.Rtf);
-            }
-        }
-
-        private void Save_Executed(object sender, ExecutedRoutedEventArgs e)
+        private void Save(object sender, ExecutedRoutedEventArgs e)
         {
             SaveFileDialog dlg = new SaveFileDialog();
             dlg.Filter = "Rich Text Format (*.rtf)|*.rtf|All files (*.*)|*.*";
             if (dlg.ShowDialog() == true)
             {
                 FileStream fileStream = new FileStream(dlg.FileName, FileMode.Create);
-                TextRange range = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
+                TextRange range = new TextRange(rtbEditor.Document.ContentStart, rtbEditor.Document.ContentEnd);
                 range.Save(fileStream, DataFormats.Rtf);
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void cmbFont_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-            originator.State = caretaker.pop();
-            TextRange range = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
-
-            range.Text = originator.State.Text;
-            range.ApplyPropertyValue(Inline.FontSizeProperty, originator.State.FontSize.ToString());
-
-            if (originator.State.IsBold)
-                range.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Bold);
-            else
-                range.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Normal);
-
-            if (originator.State.IsItalics)
-                range.ApplyPropertyValue(Inline.FontStyleProperty, FontStyles.Italic);
-            else
-                range.ApplyPropertyValue(Inline.FontStyleProperty, FontStyles.Normal);
-
-            if (originator.State.IsUnderline)
-                range.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Underline);
-            else
-                range.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Baseline);
-
+            if (cmbFont.SelectedItem != null)
+                rtbEditor.Selection.ApplyPropertyValue(Inline.FontFamilyProperty, cmbFont.SelectedItem);
         }
 
-
-        private void FontSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void cmbFontSize_TextChanged(object sender, TextChangedEventArgs e)
         {
-            ComboBoxItem ItemValue = (ComboBoxItem)FontSize.SelectedItem;
-            TextBlock.FontSize = int.Parse(ItemValue.Content.ToString());
+            rtbEditor.Selection.ApplyPropertyValue(Inline.FontSizeProperty, cmbFontSize.Text);
         }
-
-        private void FontStyle_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        internal class Memento
         {
+            public State State { get; set; }
 
-            ComboBoxItem StyleValue = (ComboBoxItem)FontStyle.SelectedItem;
-            switch (StyleValue.Content.ToString())
+            public Memento(State state)
             {
-                case "Underline":
-                    TextRange range = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
-                    object temp = range.GetPropertyValue(Inline.TextDecorationsProperty);
-                    if (temp.Equals(TextDecorations.Underline))
-                        range.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Baseline);
-                    else
-                        range.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Underline);
-                    originator.State.IsUnderline = !originator.State.IsUnderline;
-                    break;
-                case "Italic":
-                    TextRange range1 = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
-                    object temp1 = range1.GetPropertyValue(Inline.FontStyleProperty);
-                    if (temp1.Equals(FontStyles.Italic))
-                        range1.ApplyPropertyValue(Inline.FontStyleProperty, FontStyles.Normal);
-                    if (temp1.Equals(FontStyles.Normal))
-                        range1.ApplyPropertyValue(Inline.FontStyleProperty, FontStyles.Italic);
-                    originator.State.IsItalics = !originator.State.IsItalics;
-                    break;
-                case "Bold":
-                    TextRange range2 = new TextRange(TextBlock.Document.ContentStart, TextBlock.Document.ContentEnd);
-                    object temp2 = range2.GetPropertyValue(FontWeightProperty);
-                    if (temp2.Equals(FontWeights.Bold))
-                        range2.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Normal);
+                State = state;
+            }
+        }
+        internal class State
+        {
+            public string Text { get; set; } = "";
+            public int FontSize { get; set; } = 12;
+            public bool Italic { get; set; } = false;
+            public bool Bold { get; set; } = false;
+            public bool Underline { get; set; } = false;
 
-                    if (temp2.Equals(FontWeights.Normal))
-                        range2.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Bold);
-                    break;
-                default:
-                    TextBlock.FontStyle = FontStyles.Normal;
-                    break;
+            public State() { }
+
+            public State(string text, int fontSize, bool italic, bool bold, bool underline)
+            {
+                Text = text;
+                FontSize = fontSize;
+                Italic = italic;
+                Bold = bold;
+                Underline = underline;
+            }
+        }
+        internal class Caretaker
+        {
+            public List<State> Stetes = new List<State>();
+        }
+        internal class Originator
+        {
+            public State State { get; set; } = new State();
+            public void SetMemento(Memento memento)
+            {
+                State = memento.State;
+            }
+            public Memento CreateMemento()
+            {
+                return new Memento(State);
             }
         }
     }

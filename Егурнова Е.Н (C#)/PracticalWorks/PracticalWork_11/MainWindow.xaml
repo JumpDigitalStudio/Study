@@ -5,51 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticalWork_11"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Блокнот" Height="450" Width="800">
     <Window.CommandBindings>
-        <CommandBinding Command="ApplicationCommands.Open" Executed="Open_Executed" />
-        <CommandBinding Command="ApplicationCommands.Save" Executed="Save_Executed" />
+        <CommandBinding Command="ApplicationCommands.Save" Executed="Save" />
     </Window.CommandBindings>
-
-    <Grid>
-        <StackPanel Orientation="Vertical">
-            <StackPanel Orientation="Horizontal">
-                <ComboBox x:Name="FontSize" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="50" Height="20" SelectionChanged="FontSize_SelectionChanged">
-                    <ComboBoxItem Content="8"/>
-                    <ComboBoxItem Content="10"/>
-                    <ComboBoxItem Content="12"/>
-                    <ComboBoxItem Content="14"/>
-                    <ComboBoxItem Content="16"/>
-                    <ComboBoxItem Content="18"/>
-                    <ComboBoxItem Content="20"/>
-                    <ComboBoxItem Content="22"/>
-                    <ComboBoxItem Content="24"/>
-                    <ComboBoxItem Content="26"/>
-                    <ComboBoxItem Content="28"/>
-                    <ComboBoxItem Content="30"/>
-                    <ComboBoxItem Content="32"/>
-                    <ComboBoxItem Content="34"/>
-                    <ComboBoxItem Content="36"/>
-                    <ComboBoxItem Content="38"/>
-                    <ComboBoxItem Content="40"/>
-                </ComboBox>
-                <ComboBox x:Name="FontStyle" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="100" Height="20" SelectionChanged="FontStyle_SelectionChanged">
-                    <ComboBoxItem Content="Underline"/>
-                    <ComboBoxItem Content="Italic"/>
-                    <ComboBoxItem Content="Bold" Tag=""/>
-                </ComboBox>
-                <Button Content="Открыть" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Height="20" x:Name="back" Command = "ApplicationCommands.Open"/>
-                <Button Content="Сохранить" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Height="20" x:Name="save" Command = "ApplicationCommands.Save"/>
-            </StackPanel>
-            <StackPanel Orientation="Vertical">
-                <RichTextBox x:Name="TextBlock" Width="auto" Height="1400" Margin="0,5,0,0">
-                    <FlowDocument>
-                        <Paragraph>
-                            <Run/>
-                        </Paragraph>
-                    </FlowDocument>
-                </RichTextBox>
-            </StackPanel>
-        </StackPanel>
-    </Grid>
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Command="ApplicationCommands.Save" Content="Save" Height="auto" Width="40">
+            </Button>
+            <Separator />
+            <ToggleButton Command="EditingCommands.ToggleBold" Name="btnBold" Content="B" Width="25" Height="auto">
+            </ToggleButton>
+            <ToggleButton Command="EditingCommands.ToggleItalic" Name="btnItalic" Content="I" Width="25" Height="auto">
+            </ToggleButton>
+            <ToggleButton Command="EditingCommands.ToggleUnderline" Name="btnUnderline" Content="U" Width="25" Height="auto">
+            </ToggleButton>
+            <Separator />
+            <ComboBox Name="cmbFont" Width="150" SelectionChanged="cmbFont_SelectionChanged" /> 
+            <ComboBox Name="cmbFontSize" Width="50" IsEditable="True" TextBoxBase.TextChanged="cmbFontSize_TextChanged" />
+        </ToolBar>
+        <RichTextBox Name="rtbEditor"/>
+    </DockPanel>
 </Window>
