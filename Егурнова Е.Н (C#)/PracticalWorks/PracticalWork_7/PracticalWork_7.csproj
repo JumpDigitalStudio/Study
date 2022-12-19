@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9623BBE-8BDE-48D1-A529-32807053C482}</ProjectGuid>
+    <ProjectGuid>{68234A17-B764-4EF9-93E5-C52B176EDA82}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PracticalWork_7</RootNamespace>
     <AssemblyName>PracticalWork_7</AssemblyName>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
