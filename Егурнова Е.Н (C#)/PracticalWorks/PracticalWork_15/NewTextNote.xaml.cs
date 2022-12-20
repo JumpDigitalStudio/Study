@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace PracticalWork_15
 {
@@ -68,7 +59,7 @@ namespace PracticalWork_15
             {
                 using (FileStream fs = File.Create(path))
                 {
-                    byte[] info = new UTF8Encoding(true).GetBytes(text);
+                    byte[] info = new JsonSerializer.SerializeToUtf8Bytes(text);
                     fs.Write(info, 0, info.Length);
                 }
 
@@ -82,7 +73,7 @@ namespace PracticalWork_15
                 {
                     using (FileStream fs = File.Create(path))
                     {
-                        byte[] info = new UTF8Encoding(true).GetBytes(text);
+                        byte[] info = new JsonSerializer.SerializeToUtf8Bytes(text);
                         fs.Write(info, 0, info.Length);
                     }
 

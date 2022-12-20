@@ -43,7 +43,7 @@
                         </Border>
 
                         <!-- Menu titles -->
-                        <TextBlock Text="Notepad - и точка" Foreground="White" FontSize="22" FontWeight="SemiBold"
+                        <TextBlock Text="Заметки" Foreground="White" FontSize="22" FontWeight="SemiBold"
                                    DockPanel.Dock="Top" TextAlignment="Center" Margin="0 25 0 10"/>
                         <TextBlock Text="Created by Kuznetsov" Foreground="#D0BFFF" FontSize="14" FontWeight="Regular"
                                    DockPanel.Dock="Top" TextAlignment="Center"/>
