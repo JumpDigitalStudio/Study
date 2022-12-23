@@ -1,0 +1,2 @@
+C:\Users\slipc\source\repos\3pr\3pr\x64\Debug\3pr.vcxproj.AssemblyReference.cache
+C:\Users\slipc\source\repos\3pr\3pr\x64\Debug\3pr.vcxproj.SuggestedBindingRedirects.cache

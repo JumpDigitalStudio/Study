@@ -11,7 +11,7 @@
 				<li class="nav-item"><a href="/pages/about.php" class="nav-link">О нас</a></li>
 				<li class="nav-item"><a href="/pages/car.php" class="nav-link">Модели</a></li>
 				<li class="nav-item"><a href="/pages/contact.php" class="nav-link">Контакты</a></li>
-				<li class="nav-item"><a href="/pages/contact.php" class="nav-link">Личный кабинет</a></li>
+				<li class="nav-item"><a href="/account/authorization.php" class="nav-link">Личный кабинет</a></li>
 			</ul>
 		</div>
 	</div>

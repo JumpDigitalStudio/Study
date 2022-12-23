@@ -1,0 +1,71 @@
+$white: #fff;
+$black: #000000;
+
+$primary: #1089ff;
+$secondary: #01d28e;
+
+.account {
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	height: 100vh;
+
+	&__container {
+		width: 450px;
+		height: auto;
+		padding: 50px;
+
+		background: $white;
+		border-radius: 15px;
+
+		text-align: center;
+	}
+
+	&__title {
+
+		&>h1 {
+			font-family: 'Poppins', sans-serif;
+			font-size: 40px;
+			font-weight: 700;
+			color: $black;
+		}
+	}
+
+	&__message {
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		color: $primary;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		row-gap: 25px;
+		width: 100%;
+		margin: 42px 0px 0px 0px;
+	}
+
+	&__input {
+		padding: 10px;
+		border-radius: 15px;
+		border: 1px #999999 solid;
+
+		outline: none;
+	}
+
+	&__btn {
+		padding: 10px;
+		border-radius: 15px;
+	}
+
+	&__text {
+		margin: 0;
+	}
+}
+
+.section__background {
+	height: calc(100vh + 100px);
+}

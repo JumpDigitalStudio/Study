@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  3pr.cpp
+  AssemblyInfo.cpp
+  Создание кода...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  3pr.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  3pr.vcxproj -> C:\Users\slipc\source\repos\3pr\x64\Debug\3pr.exe

@@ -1,0 +1,50 @@
+.account {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.account__container {
+  width: 450px;
+  height: auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+.account__title > h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+.account__message {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #1089ff;
+}
+.account__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 100%;
+  margin: 42px 0px 0px 0px;
+}
+.account__input {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px #999999 solid;
+  outline: none;
+}
+.account__btn {
+  padding: 10px;
+  border-radius: 15px;
+}
+.account__text {
+  margin: 0;
+}
+
+.section__background {
+  height: calc(100vh + 100px);
+}

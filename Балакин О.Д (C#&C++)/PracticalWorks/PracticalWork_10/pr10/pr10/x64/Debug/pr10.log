@@ -1,0 +1,6 @@
+﻿  pr10.cpp
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\PracticalWorks\PracticalWork_10\pr10\pr10\pr10.cpp(19,31): warning C4311: <function-style-cast>: усечение указателя из "PVOID" в "int"
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\PracticalWorks\PracticalWork_10\pr10\pr10\pr10.cpp(19,31): warning C4302: <function-style-cast>: усечение из "PVOID" к "int"
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\PracticalWorks\PracticalWork_10\pr10\pr10\pr10.cpp(39,91): warning C4311: <function-style-cast>: усечение указателя из "PVOID" в "int"
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\PracticalWorks\PracticalWork_10\pr10\pr10\pr10.cpp(39,91): warning C4302: <function-style-cast>: усечение из "PVOID" к "int"
+  pr10.vcxproj -> C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\PracticalWorks\PracticalWork_10\pr10\x64\Debug\pr10.exe

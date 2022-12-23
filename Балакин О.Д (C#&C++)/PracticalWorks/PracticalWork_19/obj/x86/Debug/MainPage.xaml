@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="PracticalWork_19.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PracticalWork_19"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <SplitView x:ConnectionId='2' x:Name="splitView" Background="White" PaneBackground="SlateGray">
+        <SplitView.Pane>
+            <StackPanel>
+                <Rectangle Fill="DarkSlateGray" Height="100" />
+                <Rectangle Fill="DarkGray" Height="100" />
+                <Rectangle Fill="DimGray" Height="100" />
+                <Rectangle Fill="Gray" Height="100" />
+                <Rectangle Fill="LightGray" Height="100" />
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Button x:ConnectionId='3' Content="Переключить" Background="Gray" HorizontalAlignment="Center"                      />
+                <TextBox x:ConnectionId='4' x:Name="txt"  HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Center" Margin="809,0,0,0"/>
+            </Grid>
+        </SplitView.Content>
+    </SplitView>
+</Page>
+

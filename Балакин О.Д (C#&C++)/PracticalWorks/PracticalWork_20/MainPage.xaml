@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="PracticalWork_20.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PracticalWork_20"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="textBox" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="50"/>
+        <Button x:Name="oneButton" FontSize="30" Content="1" Grid.Row="2" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="oneButton_Click"/>
+        <Button x:Name="fourButton" FontSize="30" Content="4" Grid.Row="3" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="fourButton_Click"/>
+        <Button x:Name="sevenButton" FontSize="30" Content="7" Grid.Row="4" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="sevenButton_Click"/>
+        <Button x:Name="zeroButton" FontSize="30" Content="0" Grid.Row="5" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="zeroButton_Click"/>
+
+        <Button x:Name="twoButton" FontSize="30" Content="2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="twoButton_Click"/>
+        <Button x:Name="fiveButton" FontSize="30" Content="5" Grid.Row="3" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="fiveButton_Click"/>
+        <Button x:Name="eightButton" FontSize="30" Content="8" Grid.Row="4" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="eightButton_Click"/>
+
+        <Button x:Name="threeButton" FontSize="30" Content="3" Grid.Row="2" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="threeButton_Click"/>
+        <Button x:Name="sixButton" FontSize="30" Content="6" Grid.Row="3" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="sixButton_Click"/>
+        <Button x:Name="nineButton" FontSize="30" Content="9" Grid.Row="4" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="nineButton_Click"/>
+
+        <Button x:Name="plusButton" FontSize="30" Content="+" Grid.Row="2" Grid.Column="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="plusButton_Click"/>
+        <Button x:Name="minusButton" FontSize="30" Content="-" Grid.Row="3" Grid.Column="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="minusButton_Click"/>
+        <Button x:Name="powButton" FontSize="30" Content="pow" Grid.Row="4" Grid.Column="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="powButton_Click"/>
+
+        <Button x:Name="multiplyButton" FontSize="30" Content="*" Grid.Row="2" Grid.Column="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="multiplyButton_Click"/>
+        <Button x:Name="divideButton" FontSize="30" Content="/" Grid.Row="3" Grid.Column="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="divideButton_Click"/>
+        <Button x:Name="sqrtButton" FontSize="30" Content="sqrt" Grid.Row="4" Grid.Column="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="sqrtButton_Click"/>
+
+        <Button x:Name="eqButton" FontSize="30" Content="=" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="eqButton_Click"/>
+        <Button x:Name="ceButton" FontSize="30" Content="CE" Grid.Row="5" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="ceButton_Click"/>
+    </Grid>
+
+</Page>

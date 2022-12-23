@@ -1,0 +1,6 @@
+C:\Users\slipc\source\repos\pr4\pr4\x64\Debug\pr4.vcxproj.AssemblyReference.cache
+C:\Users\slipc\source\repos\pr4\pr4\x64\Debug\pr4.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\slipc\Desktop\шаражка окэи\4 курс\C++\pr4\pr4\x64\Debug\pr4.vcxproj.AssemblyReference.cache
+C:\Users\slipc\Desktop\шаражка окэи\4 курс\C++\pr4\pr4\x64\Debug\pr4.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\Программы\PracticalWork_4\pr4\pr4\x64\Debug\pr4.vcxproj.AssemblyReference.cache
+C:\Users\HONOR\Desktop\Учеба\Study (репозиторий)\Балакин О.Д (C#&C++)\Программы\PracticalWork_4\pr4\pr4\x64\Debug\pr4.vcxproj.SuggestedBindingRedirects.cache
