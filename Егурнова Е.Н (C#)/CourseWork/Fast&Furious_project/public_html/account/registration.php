@@ -1,4 +1,5 @@
 <?php
+// Еcли пользовательская сессия существует, перенаправляем на страницу личного кабинета
 session_start();
 if (isset($_SESSION['user'])) {
 	header('Location: /account/account.php');
@@ -28,8 +29,9 @@ if (isset($_SESSION['user'])) {
 			<!-- Registration form -->
 			<div class="account">
 				<div class="account__container">
-					<!-- Title -->
+					<!-- Title + icon -->
 					<div class="account__title">
+						<img src="/resources/icons/icon_reg.png" alt="Регистрация">
 						<h1>Регистрация</h1>
 					</div>
 					<!-- Setup error or sucess functions -->
@@ -52,12 +54,12 @@ if (isset($_SESSION['user'])) {
 						?>
 					</div>
 					<!-- Content -->
-					<form action="" class="account__form">
+					<form action="/vendor/reg.php" method="POST" class="account__form">
 						<input class="account__input" type="text" placeholder="Придумайте логин" name="login" maxlength="25" required>
 						<input class="account__input" type="email" placeholder="Эл. почта" name="email" maxlength="150" required>
 						<input class="account__input" type="password" placeholder="Пароль" name="password" maxlength="32" minlength="8" required>
 						<input class="account__input" type="password" placeholder="Повторите пароль" name="reqpass" maxlength="32" minlength="8" required>
-						<buton class="account__btn btn btn-secondary">Зарегистрироваться</buton>
+						<input type="submit" name="submit" class="account__btn btn btn-secondary" value="Зарегистрироваться">
 						<p class="account__text">Уже с нами? <a href="/account/authorization.php"> Авторизация</a>
 					</form>
 				</div>
