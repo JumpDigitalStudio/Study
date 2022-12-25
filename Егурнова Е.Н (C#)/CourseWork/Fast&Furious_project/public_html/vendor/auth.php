@@ -104,7 +104,12 @@ if (isset($_POST["submit"]) && !empty($_POST["submit"])) {
 					$user = mysqli_fetch_assoc($client_info);
 					$_SESSION['user'] = [
 						"login" => $user['clientname'],
-						"mail" => $user['clientmail']
+						"mail" => $user['clientmail'],
+						"datereg" => $user['clientdate'],
+						"fio" => $user['clientfio'],
+						"pol" => $user['clientpol'],
+						"dateupdate" => $user['clientdateupdate'],
+						"ordersnum" => $user['clientordersnum']
 					];
 					header("HTTP/1.1 301 Moved Permanently");
 					header("Location: " . $address_site . "/account/account.php");

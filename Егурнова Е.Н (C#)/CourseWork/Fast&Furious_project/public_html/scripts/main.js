@@ -324,3 +324,12 @@ AOS.init({
 
 })(jQuery);
 
+// Open tabs
+function openPanel(panelName) {
+	let i;
+	let x = document.getElementsByClassName("panel__panel");
+	for (i = 0; i < x.length; i++) {
+		x[i].classList.remove('active');
+	}
+	document.getElementById(panelName).classList.add('active');
+}

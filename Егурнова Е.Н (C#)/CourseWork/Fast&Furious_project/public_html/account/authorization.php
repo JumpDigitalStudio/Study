@@ -34,23 +34,23 @@ if (isset($_SESSION['user'])) {
 						<h1>Авторизация</h1>
 					</div>
 					<!-- Setup error or sucess functions -->
-					<div class="account__message message">
-						<?php
-
-						//Если в сессии существуют сообщения об ошибках, то выводим их
-						if (isset($_SESSION["error_messages"]) && !empty($_SESSION["error_messages"])) {
-							echo $_SESSION["error_messages"];
-							//Уничтожаем чтобы не выводились заново при обновлении страницы
-							unset($_SESSION["error_messages"]);
-						}
-						//Если в сессии существуют радостные сообщения, то выводим их
-						if (isset($_SESSION["success_messages"]) && !empty($_SESSION["success_messages"])) {
-							echo $_SESSION["success_messages"];
-							//Уничтожаем чтобы не выводились заново при обновлении страницы
-							unset($_SESSION["success_messages"]);
-						}
-
-						?>
+					<div class=" account__message message">
+						<!-- Errors output -->
+						<p style="color: #FA5252;">
+							<?php
+							if (isset($_SESSION["error_messages"]) && !empty($_SESSION["error_messages"])) {
+								echo $_SESSION["error_messages"];
+								unset($_SESSION["error_messages"]);
+							} ?>
+						</p>
+						<!-- Success output -->
+						<p style="color: #01d28e;">
+							<?php
+							if (isset($_SESSION["success_messages"]) && !empty($_SESSION["success_messages"])) {
+								echo $_SESSION["success_messages"];
+								unset($_SESSION["success_messages"]);
+							} ?>
+						</p>
 					</div>
 					<!-- Content -->
 					<form action="/vendor/auth.php" method="POST" class="account__form">
